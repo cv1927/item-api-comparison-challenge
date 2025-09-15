@@ -29,7 +29,7 @@ export const CreateItemSchema = z.object({
 
 export const CreateItemArraySchema = z.array(CreateItemSchema).min(1, 'At least one item is required');
 
-export const UpdateItemSchema = CreateItemSchema.partial();
+export const UpdateItemSchema = CreateItemSchema;
 
 export const ItemComparisonSchema = z.object({
   itemIds: z

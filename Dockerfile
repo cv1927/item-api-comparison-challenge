@@ -5,27 +5,29 @@ WORKDIR /app
 # ---- Dependencies for building
 FROM base AS builder
 COPY package*.json ./
-RUN npm ci --omit=dev
-
 COPY . .
+RUN npm install -g @nestjs/cli
+RUN npm i
+
 RUN npm run build
 
 ENV SEED=true
 ENV COUNT=30
 
-RUN ["node", "dist/scripts/seed.js"]
+# RUN ["node", "./dist/scripts/seed.js"]
 
-FROM base AS production
+FROM node:20-alpine AS production
 RUN apk add --no-cache tini
 
-COPY --chown=node:node --from=builder /app/dist ./dist
+WORKDIR /application
+
+# COPY --from=builder /app/data/items.json ./data/items.json
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/dist ./dist
+COPY package*.json ./
 
 ENV NODE_ENV=production
 ENV PORT=3000
-
-RUN addgroup -g 1001 -S nodejs && adduser -S node -u 1001 -G nodejs
-
-USER node
 
 EXPOSE 3000
 

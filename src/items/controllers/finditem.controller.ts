@@ -1,5 +1,5 @@
-import { Controller, Get, HttpStatus, Param } from "@nestjs/common";
-import { ApiOperation, ApiParam, ApiResponse, ApiTags } from "@nestjs/swagger";
+import { Controller, Get, HttpStatus, Query } from "@nestjs/common";
+import { ApiOperation, ApiQuery, ApiResponse, ApiTags } from "@nestjs/swagger";
 
 
 // Services
@@ -19,10 +19,10 @@ export class FindItemController {
         summary: 'Get item by ID',
         description: 'Retrieves a single item by its unique identifier',
     })
-    @ApiParam({ name: 'id', required: true, description: 'Item UUID', example: 'uuid-v4-string' })
+    @ApiQuery({ name: 'id', required: true, description: 'Item UUID', example: 'uuid-v4-string' })
     @ApiResponse({ status: HttpStatus.OK, description: 'Item by Id', type: Item })
     async findOne(
-        @Param('id') id: string,
+        @Query('id') id: string,
     ) {
         return this.itemsService.findOne(id)
     }

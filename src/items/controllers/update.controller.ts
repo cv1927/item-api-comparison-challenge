@@ -1,5 +1,5 @@
-import { Body, Controller, HttpStatus, Param, Post, Put, UsePipes } from "@nestjs/common";
-import { ApiBody, ApiOperation, ApiResponse, ApiTags } from "@nestjs/swagger";
+import { Body, Controller, HttpStatus, Put, Query, UsePipes } from "@nestjs/common";
+import { ApiBody, ApiOperation, ApiQuery, ApiResponse, ApiTags } from "@nestjs/swagger";
 
 // Pipes
 import { ZodValidationPipe } from "src/common/pipes/zod-validation.pipe";
@@ -26,8 +26,9 @@ export class UpdateItemController {
     })
     @ApiBody({ type: UpdateItemDto })
     @ApiResponse({ status: HttpStatus.NOT_FOUND, description: 'Item not found' })
+    @ApiQuery({ name: 'id', required: true, description: 'Item UUID', example: 'uuid-v4-string' })
     @UsePipes(new ZodValidationPipe(UpdateItemSchema))
-    async update(@Param('id') id: string, @Body() updateItemDto: UpdateItemDto) {
+    async update(@Query('id') id: string, @Body() updateItemDto: UpdateItemDto) {
         return this.itemsService.update(id, updateItemDto);
     }
 

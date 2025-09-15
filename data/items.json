@@ -568,22 +568,22 @@
     "updatedAt": "2025-09-14T21:07:26.763Z"
   },
   {
-    "id": "4248d770-14db-455b-94ed-1d7fdb2811d8",
-    "name": "Elegant Steel Ball",
-    "description": "New Sausages model with 74 GB RAM, 135 GB storage, and arid features",
-    "imageUrl": "https://picsum.photos/seed/ZqNIOgi7L/424/2254",
-    "price": 102.55,
-    "rating": 4.9,
+    "id": "d8390184-c331-4b31-a19a-79984ec16d26",
+    "name": "Frozen Granite Hat 2",
+    "description": "Stylish Sausages designed to make you stand out with subdued looks",
+    "imageUrl": "https://loremflickr.com/654/772?lock=368690462010267",
+    "price": 355.03,
+    "rating": 4.6,
     "specifications": {
-      "screen": "4.0 inches",
-      "storage": "64GB",
-      "camera": "82MP",
-      "battery": "3770mAh",
-      "ram": "16GB",
-      "processor": "Exynos 2100"
+      "screen": "5.8 inches",
+      "storage": "256GB",
+      "camera": "95MP",
+      "battery": "2751mAh",
+      "ram": "4GB",
+      "processor": "Apple A14 Bionic"
     },
-    "category": "Grocery",
-    "createdAt": "2025-09-14T21:07:26.763Z",
-    "updatedAt": "2025-09-14T21:07:26.763Z"
+    "category": "Outdoors",
+    "createdAt": "2025-09-14T21:20:59.545Z",
+    "updatedAt": "2025-09-15T02:24:49.448Z"
   }
 ]

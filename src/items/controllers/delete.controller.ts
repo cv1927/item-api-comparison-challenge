@@ -1,5 +1,5 @@
-import { Controller, Delete, Get, HttpStatus, Param, Post, Put, UsePipes } from "@nestjs/common";
-import { ApiOperation, ApiParam, ApiResponse, ApiTags } from "@nestjs/swagger";
+import { Controller, Delete, HttpStatus, Query } from "@nestjs/common";
+import { ApiOperation, ApiQuery, ApiResponse, ApiTags } from "@nestjs/swagger";
 
 // Services
 import { ItemService } from "../item.service";
@@ -15,10 +15,10 @@ export class DeleteItemController {
         summary: 'Delete item by ID',
         description: 'Deletes an existing item by its unique identifier',
     })
-    @ApiParam({ name: 'id', description: 'Item UUID' })
+    @ApiQuery({ name: 'id', description: 'Item UUID' })
     @ApiResponse({ status: HttpStatus.OK, description: 'Item deleted successfully' })
     @ApiResponse({ status: HttpStatus.NOT_FOUND, description: 'Item not found' })
-    async remove(@Param('id') id: string) {
+    async remove(@Query('id') id: string) {
         await this.itemsService.remove(id);
     }
 

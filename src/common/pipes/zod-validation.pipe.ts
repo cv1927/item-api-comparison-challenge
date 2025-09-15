@@ -7,7 +7,14 @@ export class ZodValidationPipe implements PipeTransform {
 
   transform(value: any, metadata: ArgumentMetadata) {
     try {
+      if (metadata.type !== 'body') {
+        return value;
+      }
+
       const parsedValue = this.schema.parse(value);
+      if (!parsedValue) {
+        throw new BadRequestException('Validation failed: Parsed value is empty or invalid');
+      }
       return parsedValue;
     } catch (error) {
       throw new BadRequestException({

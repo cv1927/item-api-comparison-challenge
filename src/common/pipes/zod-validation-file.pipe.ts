@@ -7,11 +7,17 @@ export class ZodValidationFilePipe implements PipeTransform {
 
     transform(value: Express.Multer.File, metadata: ArgumentMetadata) {
         try {
-            const dataFile = value.buffer.toString('utf-8');
+            
+            const dataFile = value.buffer.toString();
             const dataParsed = JSON.parse(dataFile);
 
             const parsedValue = this.schema.parse(dataParsed);
-            return parsedValue;
+            
+            if (!parsedValue) {
+                throw new BadRequestException('Validation failed: Parsed value is empty or invalid');
+            }
+
+            return value;
         } catch (error) {
             throw new BadRequestException({
                 message: 'Validation failed',
