@@ -18,8 +18,17 @@ describe('AppController', () => {
     it('should return ApiInfo', () => {
       expect(appController.getApiInfo()).toEqual({
         name: 'Item Comparison API',
-        version: '1.0.0',
-        description: 'API for comparing items',
+        version: '1.0',
+        description: 'RESTful API for product item comparison',
+        endpoints: {
+          documentation: '/api/docs',
+          health: '/api/v1/health',
+          items: '/api/v1/items',
+        },
+        features: [
+          'Item management',
+          'Pagination support'
+        ]
       });
     });
   });
