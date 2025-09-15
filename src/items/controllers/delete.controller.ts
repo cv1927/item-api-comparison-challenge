@@ -5,6 +5,11 @@ import { ApiOperation, ApiQuery, ApiResponse, ApiTags } from "@nestjs/swagger";
 import { ItemService } from "../item.service";
 
 
+/**
+ * Controller for deleting items.
+ * Provides an endpoint to delete an item by its unique identifier.
+ * Returns a success response upon successful deletion.
+ */
 @ApiTags('items')
 @Controller('items')
 export class DeleteItemController {

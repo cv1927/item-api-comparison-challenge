@@ -13,7 +13,12 @@ import { UpdateItemDto } from "../schemas/item.schema";
 // Schemas
 import { UpdateItemSchema } from "../schemas/item.schema";
 
-
+/**
+ * Controller for updating items.
+ * Provides an endpoint to update an existing item.
+ * Uses ZodValidationPipe to validate the request body against UpdateItemSchema.
+ * Returns the updated item upon successful update.
+ */
 @ApiTags('items')
 @Controller('items')
 export class UpdateItemController {

@@ -6,15 +6,23 @@ import helmet from 'helmet';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
+  /**
+   * Create the NestJS application with specified logger levels.
+   */
   const app = await NestFactory.create(AppModule, {
     logger: ['error', 'warn', 'log', 'debug'],
   });
   const configService = app.get(ConfigService);
   const logger = new Logger('Bootstrap');
 
+  // Set global prefix for all routes
   app.setGlobalPrefix('api')
 
-  // Security
+  /**
+   * Enable CORS and API Versioning
+   * CORS origin can be configured via the CORS_ORIGIN environment variable (default is '*')
+   * API versioning is set to use URI versioning with a default version of '1'
+   */
   app.enableCors({
     origin: configService.get('CORS_ORIGIN', '*'),
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
@@ -24,10 +32,17 @@ async function bootstrap() {
     defaultVersion: '1'
   });
 
+  /**
+   * Use Helmet middleware for security
+   * Helmet helps secure the app by setting various HTTP headers
+   */
   app.use(helmet())
 
 
-  // Configure Swagger
+  /**
+   * Setup Swagger for API documentation
+   * The Swagger UI will be available at /api/docs
+   */
   const config = new DocumentBuilder()
     .setTitle('Item Comparison API')
     .setDescription('API for comparing items')
@@ -38,7 +53,10 @@ async function bootstrap() {
   const documentFactory = () => SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api/docs', app, documentFactory);
 
-  // Redirect root to Swagger docs
+  /**
+   * Redirect root URL to Swagger documentation
+   * When accessing the root URL '/', users will be redirected to '/api/docs'
+   */
   app.getHttpAdapter().get('/', (req, res) => {
     res.redirect('/api/docs');
   });

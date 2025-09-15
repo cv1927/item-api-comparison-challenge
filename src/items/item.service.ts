@@ -7,6 +7,15 @@ import { v4 as uuidv4 } from 'uuid';
 import { Item } from "./entities/item.entity";
 import { CreateItemDto, PaginationDto, UpdateItemDto } from "./schemas/item.schema";
 
+/**
+ * Service for managing items.
+ * Provides methods to create, read, update, and delete items.
+ * Items are stored in a JSON file located at 'data/items.json'.
+ * The service handles loading and saving items to the file system.
+ * It also supports pagination and searching of items.
+ * 
+ * Error handling is included for file operations and item lookups.
+ */
 @Injectable()
 export class ItemService {
     private readonly logger = new Logger(ItemService.name);

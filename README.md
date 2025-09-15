@@ -1,4 +1,7 @@
 # Items Comparison API
+# Repository
+
+GitHub: [https://github.com/cv1927/item-api-comparison-challenge](https://github.com/cv1927/item-api-comparison-challenge)
 
 ## API Design
 
@@ -31,6 +34,8 @@ This API is designed to compare and manage items. It uses NestJS as its main fra
 - The API configuration is located in  `src/common/config/configuration.ts`.
 - The data file is in `data/items.json`.
 - To customize validations, review the pipes in `src/common/pipes/`.
+
+- The project is prepared for API versioning, allowing future versions and backward compatibility (e.g., endpoints under `/api/v1/`).
 
 ## 🚀 Project Setup & Run Instructions
 

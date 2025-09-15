@@ -12,6 +12,11 @@ export type ApiInfo = {
   features: string[];
 }
 
+/**
+ * Service providing API information.
+ * Contains methods to retrieve basic information about the API.
+ * Includes details such as name, version, description, endpoints, and features.
+ */
 @Injectable()
 export class AppService {
 

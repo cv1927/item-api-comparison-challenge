@@ -5,6 +5,18 @@ import { AppModule } from "src/app.module";
 import { ItemService } from "src/items/item.service";
 import { CreateItemDto } from "src/items/schemas/item.schema";
 
+
+/**
+ * Seed the database with initial data.
+ * It can be configured via environment variables or interactive prompts.
+ * 
+ * Environment Variables:
+ * - SEED: If set to '1' or 'true', enables seeding without prompt.
+ * - SEED_COUNT: Number of items to create (default is 0, which prompts for input).
+ * 
+ * If not set, the script will prompt the user for confirmation and count.
+ * @returns void
+ */
 async function run() {
     const appCtx = await NestFactory.createApplicationContext(AppModule);
 

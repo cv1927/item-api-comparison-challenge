@@ -1,6 +1,12 @@
 import { PipeTransform, Injectable, ArgumentMetadata, BadRequestException } from '@nestjs/common';
 import { ZodType } from 'zod';
 
+
+/**
+ * A NestJS pipe that validates incoming request bodies using a Zod schema.
+ * If validation fails, it throws a BadRequestException with detailed error messages.
+ * It only processes 'body' type metadata.
+ */
 @Injectable()
 export class ZodValidationPipe implements PipeTransform {
   constructor(private schema: ZodType) {}

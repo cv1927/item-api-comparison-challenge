@@ -1,6 +1,12 @@
 import { PipeTransform, Injectable, ArgumentMetadata, BadRequestException } from '@nestjs/common';
 import { ZodType } from 'zod';
 
+
+/**
+ * A NestJS pipe that validates uploaded files using a Zod schema.
+ * It reads the file buffer, parses it as JSON, and validates it against the provided schema.
+ * If validation fails, it throws a BadRequestException with detailed error messages.
+ */
 @Injectable()
 export class ZodValidationFilePipe implements PipeTransform {
     constructor(private schema: ZodType) { }

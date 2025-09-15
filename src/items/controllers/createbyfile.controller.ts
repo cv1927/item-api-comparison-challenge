@@ -16,7 +16,12 @@ import { CreateItemArraySchema } from "../schemas/item.schema";
 import { Item } from "../entities/item.entity";
 
 
-
+/**
+ * Controller for creating items via file upload.
+ * Provides an endpoint to upload a JSON file containing an array of items.
+ * Uses ZodValidationFilePipe to validate the uploaded file against CreateItemArraySchema.
+ * Returns the created items upon successful creation.
+ */
 @ApiTags('items')
 @Controller('items')
 export class CreateItemFileController {

@@ -5,6 +5,11 @@ import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import type { ApiInfo } from './app.service';
 import { AppService } from './app.service';
 
+/**
+ * Controller for application-level endpoints.
+ * Provides an endpoint to retrieve basic information about the API.
+ * Returns API information including name, version, description, endpoints, and features.
+ */
 @ApiTags('app')
 @Controller()
 export class AppController {

@@ -1,5 +1,10 @@
 import { ApiProperty } from "@nestjs/swagger";
 
+/**
+ * Entity representing an item.
+ * Includes properties such as id, name, description, imageUrl, price, rating, specifications, category, createdAt, and updatedAt.
+ * The constructor initializes the item with provided values and sets timestamps.
+ */
 export class Item {
 
   @ApiProperty({

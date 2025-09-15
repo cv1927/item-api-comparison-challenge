@@ -9,6 +9,11 @@ import { ItemService } from "../item.service";
 // Entities
 import { Item } from "../entities/item.entity";
 
+/**
+ * Controller for retrieving all items.
+ * Provides an endpoint to fetch a list of all items.
+ * Returns an array of items upon successful retrieval.
+ */
 @ApiTags('items')
 @Controller('items')
 export class FindAllItemController {

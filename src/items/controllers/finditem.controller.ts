@@ -9,6 +9,11 @@ import { ItemService } from "../item.service";
 // Entities
 import { Item } from "../entities/item.entity";
 
+/**
+ * Controller for retrieving a single item by its ID.
+ * Provides an endpoint to fetch an item by its unique identifier.
+ * Returns the item upon successful retrieval.
+ */
 @ApiTags('items')
 @Controller('items')
 export class FindItemController {

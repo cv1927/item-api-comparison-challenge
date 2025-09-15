@@ -3,7 +3,12 @@ import { ApiOkResponse, ApiProduces, ApiTags } from "@nestjs/swagger";
 import { Item } from "../entities/item.entity";
 import { faker } from "@faker-js/faker";
 
-
+/**
+ * Controller for downloading item creation template.
+ * Provides an endpoint to download a JSON template for item creation.
+ * The template includes sample data for all item fields.
+ * Returns the template as a downloadable JSON file.
+ */
 @ApiTags('items')
 @Controller('items')
 export class DownloadTemplateController {

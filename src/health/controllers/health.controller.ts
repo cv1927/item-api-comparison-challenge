@@ -7,6 +7,12 @@ import {
 } from "@nestjs/terminus";
 import { ApiOperation, ApiResponse, ApiTags } from "@nestjs/swagger";
 
+/**
+ * Controller for health checks.
+ * Provides an endpoint to check the health of the application.
+ * Uses MemoryHealthIndicator and DiskHealthIndicator to perform health checks.
+ * Returns the health status of the application.
+ */
 @ApiTags('health')
 @Controller('health')
 export class HealthController {

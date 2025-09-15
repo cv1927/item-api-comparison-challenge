@@ -16,6 +16,13 @@ import { CreateItemSchema } from "../schemas/item.schema";
 // Entities
 import { Item } from "../entities/item.entity";
 
+
+/**
+ * Controller for creating items.
+ * Provides an endpoint to create a new item.
+ * Uses ZodValidationPipe to validate the request body against CreateItemSchema.
+ * Returns the created item upon successful creation.
+ */
 @ApiTags('items')
 @Controller('items')
 export class CreateItemController {

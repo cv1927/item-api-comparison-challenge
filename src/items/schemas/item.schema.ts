@@ -1,6 +1,12 @@
 import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
+
+/**
+ * Zod schema for creating a new item.
+ * Validates fields such as name, imageUrl, description, price, rating, specifications, and category.
+ * Includes constraints like required fields, maximum lengths, and value ranges.
+ */
 export const CreateItemSchema = z.object({
     name: z.string()
         .min(1, 'Name is required')
@@ -27,17 +33,23 @@ export const CreateItemSchema = z.object({
         .trim(),
 });
 
+/**
+ * Zod schema for an array of items.
+ * Ensures at least one item is present in the array.
+ */
 export const CreateItemArraySchema = z.array(CreateItemSchema).min(1, 'At least one item is required');
 
+
+/**
+ * Zod schema for updating an item.
+ * Reuses the CreateItemSchema as all fields are optional for updates.
+ */
 export const UpdateItemSchema = CreateItemSchema;
 
-export const ItemComparisonSchema = z.object({
-  itemIds: z
-    .array(z.string().uuid('Invalid item ID format'))
-    .min(2, 'At least 2 items are required for comparison')
-    .max(5, 'Maximum 5 items can be compared at once'),
-});
-
+/**
+ * Zod schema for Pagination parameters.
+ * Includes page number, limit, search term, and category filter.
+ */
 export const PaginationSchema = z.object({
   page: z
     .number()
@@ -62,8 +74,10 @@ export const PaginationSchema = z.object({
     .optional(),
 });
 
+/**
+ * DTO classes generated from Zod schemas for type-safe validation in NestJS.
+ */
 export class CreateItemDto extends createZodDto(CreateItemSchema) {};
 export class CreateItemArrayDto extends createZodDto(CreateItemArraySchema) {};
 export class UpdateItemDto extends createZodDto(UpdateItemSchema) {};
-export class ItemComparisonDto extends createZodDto(ItemComparisonSchema) {};
 export class PaginationDto extends createZodDto(PaginationSchema) {};
