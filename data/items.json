@@ -1,0 +1,589 @@
+[
+  {
+    "id": "05840545-dbbd-4836-942b-0445101cc8b3",
+    "name": "iPhone 15 Pro",
+    "description": "Latest iPhone with titanium design and A17 Pro chip",
+    "imageUrl": "https://example.com/iphone15.jpg",
+    "price": 999.99,
+    "rating": 4.8,
+    "specifications": {
+      "screen": "6.1 inches",
+      "storage": "128GB",
+      "camera": "48MP",
+      "processor": "A17 Pro"
+    },
+    "category": "Electronics",
+    "createdAt": "2025-09-14T09:56:20.993Z",
+    "updatedAt": "2025-09-14T09:56:20.993Z"
+  },
+  {
+    "id": "171fd84c-a0f5-40be-9f0f-3d4ae9826bfd",
+    "name": "Modern Rubber Pants",
+    "description": "The salmon Table combines Libyan Arab Jamahiriya aesthetics with Thallium-based durability",
+    "imageUrl": "https://loremflickr.com/1983/1504?lock=77502416615373",
+    "price": 553.45,
+    "rating": 1.1,
+    "specifications": {
+      "screen": "6.7 inches",
+      "storage": "1TB",
+      "camera": "37MP",
+      "battery": "2411mAh",
+      "ram": "6GB",
+      "processor": "Kirin 9000"
+    },
+    "category": "Computers",
+    "createdAt": "2025-09-14T21:07:26.760Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "343b157a-229b-4c8b-8ae4-702d09168f96",
+    "name": "Incredible Ceramic Gloves",
+    "description": "The indigo Gloves combines Vietnam aesthetics with Zirconium-based durability",
+    "imageUrl": "https://picsum.photos/seed/o0cBHq/917/2436",
+    "price": 102.54,
+    "rating": 3.9,
+    "specifications": {
+      "screen": "6.5 inches",
+      "storage": "1TB",
+      "camera": "37MP",
+      "battery": "3721mAh",
+      "ram": "16GB",
+      "processor": "Exynos 2100"
+    },
+    "category": "Home",
+    "createdAt": "2025-09-14T21:07:26.761Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "a055c8fd-19a5-4de9-8a24-eab418e69286",
+    "name": "Recycled Gold Cheese",
+    "description": "Discover the lion-like agility of our Computer, perfect for internal users",
+    "imageUrl": "https://loremflickr.com/690/328?lock=7816801152145077",
+    "price": 416.9,
+    "rating": 2.2,
+    "specifications": {
+      "screen": "7.0 inches",
+      "storage": "64GB",
+      "camera": "86MP",
+      "battery": "2054mAh",
+      "ram": "6GB",
+      "processor": "Exynos 2100"
+    },
+    "category": "Computers",
+    "createdAt": "2025-09-14T21:07:26.761Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "8d24d744-6a07-455c-8268-c82e1da5cfde",
+    "name": "Fantastic Metal Ball",
+    "description": "New cyan Shirt with ergonomic design for ethical comfort",
+    "imageUrl": "https://loremflickr.com/1427/1793?lock=6624804458820150",
+    "price": 493.55,
+    "rating": 0.2,
+    "specifications": {
+      "screen": "5.3 inches",
+      "storage": "128GB",
+      "camera": "8MP",
+      "battery": "2529mAh",
+      "ram": "6GB",
+      "processor": "Exynos 2100"
+    },
+    "category": "Games",
+    "createdAt": "2025-09-14T21:07:26.761Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "d5cf7bf7-71e7-4b33-8db8-4874db7ad23d",
+    "name": "Tasty Plastic Bike",
+    "description": "Our crunchy-inspired Bike brings a taste of luxury to your whirlwind lifestyle",
+    "imageUrl": "https://picsum.photos/seed/5YcCfCzFO6/1967/351",
+    "price": 97.79,
+    "rating": 1.1,
+    "specifications": {
+      "screen": "5.9 inches",
+      "storage": "256GB",
+      "camera": "39MP",
+      "battery": "4315mAh",
+      "ram": "8GB",
+      "processor": "Kirin 9000"
+    },
+    "category": "Shoes",
+    "createdAt": "2025-09-14T21:07:26.761Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "d0969f2c-2e25-45a6-ba27-49478548ce91",
+    "name": "Incredible Plastic Bike",
+    "description": "The Customizable needs-based hub Chicken offers reliable performance and stale design",
+    "imageUrl": "https://loremflickr.com/51/1569?lock=2588773132004135",
+    "price": 917.89,
+    "rating": 1.3,
+    "specifications": {
+      "screen": "6.5 inches",
+      "storage": "128GB",
+      "camera": "60MP",
+      "battery": "2100mAh",
+      "ram": "8GB",
+      "processor": "Exynos 2100"
+    },
+    "category": "Garden",
+    "createdAt": "2025-09-14T21:07:26.761Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "12446880-2a13-4147-9ac1-73683e02dcee",
+    "name": "Tasty Aluminum Ball",
+    "description": "The sleek and improbable Ball comes with turquoise LED lighting for smart functionality",
+    "imageUrl": "https://picsum.photos/seed/6eDPXv/2382/3198",
+    "price": 252.05,
+    "rating": 3.8,
+    "specifications": {
+      "screen": "6.1 inches",
+      "storage": "64GB",
+      "camera": "98MP",
+      "battery": "4711mAh",
+      "ram": "16GB",
+      "processor": "Apple A14 Bionic"
+    },
+    "category": "Industrial",
+    "createdAt": "2025-09-14T21:07:26.761Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "6a7e7790-67eb-4a3e-98d6-6b1401ed2fb3",
+    "name": "Refined Ceramic Sausages",
+    "description": "The Justice Bacon is the latest in a series of functional products from Jacobs Inc",
+    "imageUrl": "https://picsum.photos/seed/sZq6pG9/2017/2366",
+    "price": 436.25,
+    "rating": 1.9,
+    "specifications": {
+      "screen": "5.9 inches",
+      "storage": "256GB",
+      "camera": "71MP",
+      "battery": "4805mAh",
+      "ram": "16GB",
+      "processor": "MediaTek Dimensity 1200"
+    },
+    "category": "Shoes",
+    "createdAt": "2025-09-14T21:07:26.761Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "90022e11-039c-45d1-88d9-6f21eaf983a3",
+    "name": "Bespoke Bamboo Bike",
+    "description": "New white Sausages with ergonomic design for mixed comfort",
+    "imageUrl": "https://picsum.photos/seed/3mgSJWs/1209/292",
+    "price": 696.69,
+    "rating": 1.5,
+    "specifications": {
+      "screen": "7.2 inches",
+      "storage": "512GB",
+      "camera": "87MP",
+      "battery": "3989mAh",
+      "ram": "4GB",
+      "processor": "Apple A14 Bionic"
+    },
+    "category": "Grocery",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "8f768594-b00d-422e-99f4-8456c6b1d99e",
+    "name": "Refined Metal Soap",
+    "description": "Stylish Cheese designed to make you stand out with outlying looks",
+    "imageUrl": "https://picsum.photos/seed/O6Cls/2011/3425",
+    "price": 703.65,
+    "rating": 0.1,
+    "specifications": {
+      "screen": "5.6 inches",
+      "storage": "256GB",
+      "camera": "36MP",
+      "battery": "3012mAh",
+      "ram": "16GB",
+      "processor": "MediaTek Dimensity 1200"
+    },
+    "category": "Music",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "bf24269c-6ed1-4f79-8e3e-f3f712ebfa9e",
+    "name": "Tasty Aluminum Salad",
+    "description": "The Visionary disintermediate productivity Pizza offers reliable performance and golden design",
+    "imageUrl": "https://loremflickr.com/2108/3516?lock=6848905845248665",
+    "price": 993.05,
+    "rating": 0.8,
+    "specifications": {
+      "screen": "5.7 inches",
+      "storage": "64GB",
+      "camera": "78MP",
+      "battery": "4246mAh",
+      "ram": "2GB",
+      "processor": "Exynos 2100"
+    },
+    "category": "Kids",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "602af4ac-24b0-427e-89e3-7f62bc842a17",
+    "name": "Bespoke Cotton Tuna",
+    "description": "Luxurious Tuna designed with Wooden for normal performance",
+    "imageUrl": "https://loremflickr.com/1566/658?lock=6204269830881065",
+    "price": 197.8,
+    "rating": 1.5,
+    "specifications": {
+      "screen": "4.9 inches",
+      "storage": "512GB",
+      "camera": "98MP",
+      "battery": "2408mAh",
+      "ram": "12GB",
+      "processor": "Snapdragon 888"
+    },
+    "category": "Sports",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "5b0b8cfc-3f14-43ea-8759-f00d7a498680",
+    "name": "Licensed Gold Ball",
+    "description": "Ergonomic Hat made with Concrete for all-day linear support",
+    "imageUrl": "https://picsum.photos/seed/B1eJfP6M3/1752/1572",
+    "price": 831.29,
+    "rating": 4.1,
+    "specifications": {
+      "screen": "4.3 inches",
+      "storage": "512GB",
+      "camera": "105MP",
+      "battery": "3198mAh",
+      "ram": "2GB",
+      "processor": "Kirin 9000"
+    },
+    "category": "Toys",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "51a6663a-0975-4b3f-9991-55284e589c9b",
+    "name": "Rustic Ceramic Shoes",
+    "description": "Introducing the Latvia-inspired Pizza, blending black style with local craftsmanship",
+    "imageUrl": "https://picsum.photos/seed/JKWZSk/2704/2190",
+    "price": 591.69,
+    "rating": 1.2,
+    "specifications": {
+      "screen": "5.1 inches",
+      "storage": "128GB",
+      "camera": "75MP",
+      "battery": "2290mAh",
+      "ram": "12GB",
+      "processor": "Exynos 2100"
+    },
+    "category": "Jewelry",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "22366819-be45-44cd-8be2-55bf6e31dbff",
+    "name": "Fantastic Wooden Shirt",
+    "description": "Innovative Salad featuring uniform technology and Ceramic construction",
+    "imageUrl": "https://picsum.photos/seed/oc2KyQnEUF/3909/795",
+    "price": 619.46,
+    "rating": 2.9,
+    "specifications": {
+      "screen": "5.8 inches",
+      "storage": "128GB",
+      "camera": "31MP",
+      "battery": "3792mAh",
+      "ram": "6GB",
+      "processor": "Snapdragon 888"
+    },
+    "category": "Tools",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "d04c9659-2ca5-4a60-803a-138ab5e6d8f3",
+    "name": "Practical Marble Ball",
+    "description": "Stylish Chair designed to make you stand out with webbed looks",
+    "imageUrl": "https://picsum.photos/seed/ioqIAF6/3390/2857",
+    "price": 718.49,
+    "rating": 3.5,
+    "specifications": {
+      "screen": "7.7 inches",
+      "storage": "512GB",
+      "camera": "92MP",
+      "battery": "4068mAh",
+      "ram": "8GB",
+      "processor": "Kirin 9000"
+    },
+    "category": "Music",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "46e41a2e-2998-4e84-9296-bb53c27e02b5",
+    "name": "Handmade Cotton Pizza",
+    "description": "Experience the gold brilliance of our Chair, perfect for enchanting environments",
+    "imageUrl": "https://loremflickr.com/1284/2333?lock=4517710578279186",
+    "price": 907.25,
+    "rating": 2.4,
+    "specifications": {
+      "screen": "5.6 inches",
+      "storage": "512GB",
+      "camera": "101MP",
+      "battery": "2364mAh",
+      "ram": "8GB",
+      "processor": "Kirin 9000"
+    },
+    "category": "Garden",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "1a0638aa-abd2-4d79-988e-fc98a41ed5cd",
+    "name": "Rustic Bronze Shoes",
+    "description": "Stylish Shoes designed to make you stand out with sugary looks",
+    "imageUrl": "https://picsum.photos/seed/IBEEkH81G/1816/3248",
+    "price": 5.89,
+    "rating": 1,
+    "specifications": {
+      "screen": "7.8 inches",
+      "storage": "64GB",
+      "camera": "10MP",
+      "battery": "3737mAh",
+      "ram": "2GB",
+      "processor": "Kirin 9000"
+    },
+    "category": "Sports",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "4184fd6e-9d08-48e1-9cd8-ca097f05b4ed",
+    "name": "Generic Gold Shoes",
+    "description": "Our juicy-inspired Pants brings a taste of luxury to your discrete lifestyle",
+    "imageUrl": "https://loremflickr.com/1597/3534?lock=3202055789260617",
+    "price": 387.79,
+    "rating": 4.2,
+    "specifications": {
+      "screen": "6.2 inches",
+      "storage": "512GB",
+      "camera": "61MP",
+      "battery": "4902mAh",
+      "ram": "2GB",
+      "processor": "MediaTek Dimensity 1200"
+    },
+    "category": "Music",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "85064d26-e37e-4608-91f3-78526d9c2374",
+    "name": "Rustic Steel Fish",
+    "description": "Modern Pizza designed with Bronze for regal performance",
+    "imageUrl": "https://picsum.photos/seed/yB7tw3/429/1346",
+    "price": 247.75,
+    "rating": 4.6,
+    "specifications": {
+      "screen": "5.7 inches",
+      "storage": "128GB",
+      "camera": "43MP",
+      "battery": "3786mAh",
+      "ram": "2GB",
+      "processor": "Snapdragon 888"
+    },
+    "category": "Electronics",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "8f88eeb0-ecf0-4e46-838f-534bfdd456a9",
+    "name": "Handmade Aluminum Bacon",
+    "description": "Introducing the Sao Tome and Principe-inspired Chicken, blending obedient style with local craftsmanship",
+    "imageUrl": "https://loremflickr.com/1793/3338?lock=6653007064718586",
+    "price": 902.49,
+    "rating": 1,
+    "specifications": {
+      "screen": "7.7 inches",
+      "storage": "128GB",
+      "camera": "46MP",
+      "battery": "4585mAh",
+      "ram": "8GB",
+      "processor": "Snapdragon 888"
+    },
+    "category": "Clothing",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "5ec80171-0412-48ab-82aa-2001f587a79f",
+    "name": "Soft Marble Car",
+    "description": "Featuring Scandium-enhanced technology, our Bike offers unparalleled shameless performance",
+    "imageUrl": "https://loremflickr.com/964/1090?lock=8544609096043391",
+    "price": 135.45,
+    "rating": 4.9,
+    "specifications": {
+      "screen": "5.0 inches",
+      "storage": "512GB",
+      "camera": "16MP",
+      "battery": "4683mAh",
+      "ram": "12GB",
+      "processor": "Snapdragon 888"
+    },
+    "category": "Shoes",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "03e2fd5d-63ad-4b89-824f-fe5bfcecf361",
+    "name": "Elegant Aluminum Pizza",
+    "description": "The Enos Computer is the latest in a series of cute products from Franey Inc",
+    "imageUrl": "https://loremflickr.com/3630/1838?lock=3354429568393790",
+    "price": 572.09,
+    "rating": 2.2,
+    "specifications": {
+      "screen": "6.4 inches",
+      "storage": "1TB",
+      "camera": "83MP",
+      "battery": "3945mAh",
+      "ram": "16GB",
+      "processor": "MediaTek Dimensity 1200"
+    },
+    "category": "Clothing",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "98ce9186-573f-4468-9fc7-e5d20eb55208",
+    "name": "Licensed Rubber Chicken",
+    "description": "New blue Gloves with ergonomic design for uniform comfort",
+    "imageUrl": "https://loremflickr.com/2080/419?lock=2569031258187068",
+    "price": 579.55,
+    "rating": 4.9,
+    "specifications": {
+      "screen": "4.1 inches",
+      "storage": "128GB",
+      "camera": "56MP",
+      "battery": "4053mAh",
+      "ram": "12GB",
+      "processor": "Apple A14 Bionic"
+    },
+    "category": "Automotive",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "5de95b48-4971-4ae2-9419-b11a01e07c82",
+    "name": "Licensed Bronze Ball",
+    "description": "Wilderman, Bosco and Hansen's most advanced Bike technology increases juvenile capabilities",
+    "imageUrl": "https://loremflickr.com/2348/2644?lock=408234598951461",
+    "price": 92.39,
+    "rating": 2.6,
+    "specifications": {
+      "screen": "4.9 inches",
+      "storage": "128GB",
+      "camera": "18MP",
+      "battery": "4275mAh",
+      "ram": "4GB",
+      "processor": "Kirin 9000"
+    },
+    "category": "Home",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "1a0314e1-8718-4964-934d-4fe7d84c349b",
+    "name": "Frozen Ceramic Hat",
+    "description": "The grey Computer combines Virgin Islands, U.S. aesthetics with Americium-based durability",
+    "imageUrl": "https://picsum.photos/seed/pU4tdWZ21B/315/1283",
+    "price": 186.8,
+    "rating": 4.6,
+    "specifications": {
+      "screen": "5.8 inches",
+      "storage": "64GB",
+      "camera": "100MP",
+      "battery": "4545mAh",
+      "ram": "12GB",
+      "processor": "Snapdragon 888"
+    },
+    "category": "Industrial",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "bc534bdb-6202-4d22-81b9-59df8090928b",
+    "name": "Elegant Bronze Chips",
+    "description": "Savor the tender essence in our Pizza, designed for practical culinary adventures",
+    "imageUrl": "https://picsum.photos/seed/JJHjm/3087/1939",
+    "price": 896,
+    "rating": 1.5,
+    "specifications": {
+      "screen": "6.6 inches",
+      "storage": "64GB",
+      "camera": "16MP",
+      "battery": "3244mAh",
+      "ram": "12GB",
+      "processor": "Exynos 2100"
+    },
+    "category": "Sports",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "6a39866b-028a-4ce1-984d-52a0a700657f",
+    "name": "Gorgeous Bamboo Mouse",
+    "description": "The sleek and phony Sausages comes with olive LED lighting for smart functionality",
+    "imageUrl": "https://loremflickr.com/3539/132?lock=6997010509811974",
+    "price": 367.39,
+    "rating": 3.8,
+    "specifications": {
+      "screen": "6.8 inches",
+      "storage": "1TB",
+      "camera": "9MP",
+      "battery": "4021mAh",
+      "ram": "6GB",
+      "processor": "MediaTek Dimensity 1200"
+    },
+    "category": "Electronics",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "5b762b41-9690-45dc-93e7-6a152cdf7299",
+    "name": "Sleek Silk Bacon",
+    "description": "Stylish Ball designed to make you stand out with hungry looks",
+    "imageUrl": "https://loremflickr.com/3446/2893?lock=3447341148758592",
+    "price": 154.95,
+    "rating": 1.9,
+    "specifications": {
+      "screen": "5.2 inches",
+      "storage": "128GB",
+      "camera": "36MP",
+      "battery": "3136mAh",
+      "ram": "8GB",
+      "processor": "MediaTek Dimensity 1200"
+    },
+    "category": "Home",
+    "createdAt": "2025-09-14T21:07:26.762Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  },
+  {
+    "id": "4248d770-14db-455b-94ed-1d7fdb2811d8",
+    "name": "Elegant Steel Ball",
+    "description": "New Sausages model with 74 GB RAM, 135 GB storage, and arid features",
+    "imageUrl": "https://picsum.photos/seed/ZqNIOgi7L/424/2254",
+    "price": 102.55,
+    "rating": 4.9,
+    "specifications": {
+      "screen": "4.0 inches",
+      "storage": "64GB",
+      "camera": "82MP",
+      "battery": "3770mAh",
+      "ram": "16GB",
+      "processor": "Exynos 2100"
+    },
+    "category": "Grocery",
+    "createdAt": "2025-09-14T21:07:26.763Z",
+    "updatedAt": "2025-09-14T21:07:26.763Z"
+  }
+]

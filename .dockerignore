@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.gitignore
+npm-debud.log
+.yarn
+.yarn/cache
+.idea
+.vscode
+.coverage
+logs
+.env*
